@@ -232,15 +232,12 @@ retail-sales-dashboard-audit/
 
 ## Data Availability
 
-```markdown
-## Data Availability
-
 The underlying dataset and Power BI `.pbix` file are not included in this repository.
 
 The source data was provided as part of a bootcamp project and is therefore not being redistributed publicly.
 
-This repository instead contains the dashboard screenshots and documentation of the data cleaning, validation, analytical methodology, and findings.
-```
+This repository instead contains the dashboard screenshots and documentation of the data cleaning, validation,
+analytical methodology, and findings.
 
 ## Conclusion
 
