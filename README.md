@@ -12,6 +12,25 @@ The goal was to go beyond simply checking whether the dashboard looked correct. 
 
 The project combines **data cleaning, financial validation, business analysis, and Power BI dashboard development** to assess whether the information presented to management could be reliably used for decision-making.
 
+## Table of Contents
+
+- [Business Problem](#business-problem)
+- [Project Objectives](#project-objectives)
+- [Tools & Technologies](#tools--technologies)
+- [Methodology](#methodology)
+- [Data Quality Audit](#data-quality-audit)
+- [Financial Validation](#financial-validation)
+- [Key Findings](#key-findings)
+- [Management Claims Audit](#management-claims-audit)
+- [Corrected Dashboard](#corrected-dashboard)
+- [Original Management Dashboard](#original-management-dashboard)
+- [Dashboard Comparison](#dashboard-comparison)
+- [Key Takeaways](#key-takeaways)
+- [Repository Structure](#repository-structure)
+- [Data Availability](#data-availability)
+- [Conclusion](#conclusion)
+- [Skills Demonstrated](#skills-demonstrated)
+
 ## Business Problem
 
 The original retail dashboard presented key performance indicators, sales trends, profitability figures, and management conclusions intended to support business decision-making.
@@ -42,10 +61,24 @@ The main objectives of this project were to:
 
 ## Tools & Technologies
 
-- **Power BI** — Dashboard development, data visualization, and reporting
-- **Power Query** — Data cleaning, transformation, validation, and preparation
-- **DAX** — Measures and analytical calculations in Power BI
-- **Microsoft Excel** — Data inspection, validation, and supporting analysis
+| Tool / Technology | Purpose |
+|---|---|
+| **Power BI** | Dashboard development, data visualization, and reporting |
+| **Power Query** | Data cleaning, transformation, validation, and preparation |
+| **DAX** | Measures, calculated metrics, and analytical calculations |
+| **Microsoft Excel** | Data inspection, validation, and supporting analysis |
+
+## Methodology
+
+The audit followed a structured data validation and reporting process:
+
+1. **Data Profiling** — Examined the dataset for duplicates, missing values, inconsistencies, and invalid entries.
+2. **Data Cleaning** — Removed exact duplicate transactions and standardized categorical fields.
+3. **Data Validation** — Validated product costs, prices, discounts, dates, transaction IDs, and other key fields.
+4. **Financial Reconciliation** — Independently calculated revenue, cost, and profit and compared them with reported figures.
+5. **Business Analysis** — Analysed revenue, profitability, returns, discounts, products, locations, and monthly performance.
+6. **Management Claims Audit** — Tested the conclusions presented in the original dashboard against the validated analysis.
+7. **Dashboard Reconstruction** — Rebuilt the reporting dashboard in Power BI using the validated data and calculations.
 
 ## Data Quality Audit
 
@@ -221,11 +254,6 @@ retail-sales-dashboard-audit/
 ├── images/
 │   ├── corrected-dashboard.png
 │   └── original-dashboard.png
-│
-└── documentation/
-    ├── data-quality-audit.md
-    ├── management-claims-audit.md
-    └── methodology.md
 ```
 
 ---
